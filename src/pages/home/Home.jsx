@@ -45,7 +45,7 @@ export default class PauseOnHover extends Component {
                 alt="Softinfix"
               />
               <img
-                src={process.env.PUBLIC_URL + "img/bline.png "}
+                src={process.env.PUBLIC_URL + "/img/bline.png "}
                 className="imgc13"
                 alt="Softinfix"
               />

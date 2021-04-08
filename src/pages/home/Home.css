@@ -1,26 +1,28 @@
 .carousal-container {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   overflow: hidden;
 }
 .video-calousal {
   filter: contrast(1.2);
   position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 80vh;
+  width: 100vw;
+  height: 60vh;
   object-fit: cover;
-  transform: translate(-50%, -50%);
+  animation: videoc 0.5s normal 0.5s 1 linear;;
   z-index: -1;
 }
+@keyframes videoc {
+}
 .imgc11 {
-  margin-top: 25vh;
+ position: absolute;
   height: 300px;
   width: 70vw;
-  animation: slid 2s normal 0s 1 linear;
+  top: 120px;
+  left: 0px;
+  animation: slid 0.5s normal 0.5s 1 linear;
   outline: none;
-  z-index: 1;
+  z-index: 2;
 }
 @keyframes slid {
   from {
@@ -30,23 +32,40 @@
     transform: translateX(0px);
   }
 }
-.imgc12{
-  height: 300px;
-  width: 600px;
-  display: flex;
-  justify-content:flex-end;
-  align-items: baseline;
-  z-index: 2;
-
-
+.imgc12 {
+  height: 200px;
+  width: 50vw;
+  outline: none;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  animation: slid2 1.5s normal 0s 1 linear;
 }
-.imgc13{
-  height: 300px;
-  width: 600px;
-  display: flex;
-  justify-content: flex-end;
-  z-index: 3;
-
+@keyframes slid2 {
+  from {
+    transform: translateX(5000px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.imgc13 {
+  height: 400px;
+  width: 60vw;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  animation: slid3 1.5s normal 0s 1 linear;
+  z-index: 1;
+}
+@keyframes slid3{
+  from {
+    transform: translatey(1000px);
+  }
+  to {
+    transform: translatey(5vh);
+  }
 }
 .carousal-slider {
   height: 80vh;
@@ -59,17 +78,20 @@
 .slick-dots li button:before {
   font-size: 18px;
   color: rgb(253, 253, 253);
+  z-index: 11;
 }
 .slick-dots {
-  display: flex;
-  align-items: baseline;
+  position: absolute;
+  z-index: 11;
+  bottom: 20px;
 }
 
 .element.style {
   outline: none !important;
 }
 .cimgwraper {
-  height: 75vh;
+  position: relative;
+  height: 60vh;
   outline: none !important;
   border: none !important;
 }
