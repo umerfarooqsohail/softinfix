@@ -1,85 +1,81 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Component } from "react";
+import "./Home.css";
 
-const Home = () => {
-  return (
-    <div>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={process.env.PUBLIC_URL + "/img/banner-1.jpg "} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src={process.env.PUBLIC_URL + "/img/banner-2.jpg "} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src={process.env.PUBLIC_URL + "/img/banner-4.jpg "} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
+export default class PauseOnHover extends Component {
+  render() {
+    var settings = {
+      dots: true,
+      arrow: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+    };
+    return (
+      <div className="carousal-container">
+        <video
+          className="video-calousal"
+          autoplay="true"
+          muted
+          loop
+          className="video-calousal"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <source
+            src={process.env.PUBLIC_URL + "/videos/infix-video.mp4 "}
+            type="video/mp4"
+          />
+        </video>
+        <div className="carousal-slider">
+          <Slider {...settings}>
+            <div className="cimgwraper">
+              <img
+                src={process.env.PUBLIC_URL + "/img/ctext.png "}
+                className="imgc11"
+                alt="Softinfix"
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/img/rwireframe.png "}
+                className="imgc12"
+                alt="Softinfix"
+              />
+              <img
+                src={process.env.PUBLIC_URL + "img/bline.png "}
+                className="imgc13"
+                alt="Softinfix"
+              />
+            </div>
+            <div className="cimgwraper">
+              <img
+                src={process.env.PUBLIC_URL + "img/bline.png "}
+                className="img12"
+                alt="Softinfix"
+              />
+            </div>
+            <div className="cimgwraper">
+              <img
+                src={process.env.PUBLIC_URL + "/img/rwireframe.png "}
+                className="img12"
+                alt="Softinfix"
+              />
+            </div>
+            <div className="cimgwraper">
+              <h3>4</h3>
+            </div>
+            <div className="cimgwraper">
+              <h3>5</h3>
+            </div>
+            <div className="cimgwraper">
+              <h3>6</h3>
+            </div>
+          </Slider>
+        </div>
       </div>
-    </div>
-  );
-};
-
-export default Home;
+    );
+  }
+}

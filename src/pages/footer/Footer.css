@@ -1,0 +1,7 @@
+.text-center {
+  z-index: 0 !important;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}

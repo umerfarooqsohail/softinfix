@@ -1,0 +1,75 @@
+.carousal-container {
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+.video-calousal {
+  filter: contrast(1.2);
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 80vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.imgc11 {
+  margin-top: 25vh;
+  height: 300px;
+  width: 70vw;
+  animation: slid 2s normal 0s 1 linear;
+  outline: none;
+  z-index: 1;
+}
+@keyframes slid {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.imgc12{
+  height: 300px;
+  width: 600px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: baseline;
+  z-index: 2;
+
+
+}
+.imgc13{
+  height: 300px;
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
+
+}
+.carousal-slider {
+  height: 80vh;
+  width: 100%;
+}
+.slick-dots li.slick-active button:before {
+  color: blue;
+}
+
+.slick-dots li button:before {
+  font-size: 18px;
+  color: rgb(253, 253, 253);
+}
+.slick-dots {
+  display: flex;
+  align-items: baseline;
+}
+
+.element.style {
+  outline: none !important;
+}
+.cimgwraper {
+  height: 75vh;
+  outline: none !important;
+  border: none !important;
+}
