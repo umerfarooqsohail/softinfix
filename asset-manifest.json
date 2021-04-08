@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/softinfix/static/css/main.ae9fc907.chunk.css",
-    "main.js": "/softinfix/static/js/main.64a62cfc.chunk.js",
-    "main.js.map": "/softinfix/static/js/main.64a62cfc.chunk.js.map",
-    "runtime-main.js": "/softinfix/static/js/runtime-main.76834863.js",
-    "runtime-main.js.map": "/softinfix/static/js/runtime-main.76834863.js.map",
-    "static/css/2.65af8127.chunk.css": "/softinfix/static/css/2.65af8127.chunk.css",
-    "static/js/2.bc3487aa.chunk.js": "/softinfix/static/js/2.bc3487aa.chunk.js",
-    "static/js/2.bc3487aa.chunk.js.map": "/softinfix/static/js/2.bc3487aa.chunk.js.map",
-    "static/js/3.2b96b678.chunk.js": "/softinfix/static/js/3.2b96b678.chunk.js",
-    "static/js/3.2b96b678.chunk.js.map": "/softinfix/static/js/3.2b96b678.chunk.js.map",
+    "main.css": "/softinfix/static/css/main.91fefeae.chunk.css",
+    "main.js": "/softinfix/static/js/main.44fbdb49.chunk.js",
+    "main.js.map": "/softinfix/static/js/main.44fbdb49.chunk.js.map",
+    "runtime-main.js": "/softinfix/static/js/runtime-main.2ea1a7f7.js",
+    "runtime-main.js.map": "/softinfix/static/js/runtime-main.2ea1a7f7.js.map",
+    "static/css/2.00ab3423.chunk.css": "/softinfix/static/css/2.00ab3423.chunk.css",
+    "static/js/2.8d38ca43.chunk.js": "/softinfix/static/js/2.8d38ca43.chunk.js",
+    "static/js/2.8d38ca43.chunk.js.map": "/softinfix/static/js/2.8d38ca43.chunk.js.map",
+    "static/js/3.bcafcd82.chunk.js": "/softinfix/static/js/3.bcafcd82.chunk.js",
+    "static/js/3.bcafcd82.chunk.js.map": "/softinfix/static/js/3.bcafcd82.chunk.js.map",
     "index.html": "/softinfix/index.html",
-    "static/css/2.65af8127.chunk.css.map": "/softinfix/static/css/2.65af8127.chunk.css.map",
-    "static/css/main.ae9fc907.chunk.css.map": "/softinfix/static/css/main.ae9fc907.chunk.css.map",
-    "static/js/2.bc3487aa.chunk.js.LICENSE.txt": "/softinfix/static/js/2.bc3487aa.chunk.js.LICENSE.txt"
+    "static/css/2.00ab3423.chunk.css.map": "/softinfix/static/css/2.00ab3423.chunk.css.map",
+    "static/css/main.91fefeae.chunk.css.map": "/softinfix/static/css/main.91fefeae.chunk.css.map",
+    "static/js/2.8d38ca43.chunk.js.LICENSE.txt": "/softinfix/static/js/2.8d38ca43.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/softinfix/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.76834863.js",
-    "static/css/2.65af8127.chunk.css",
-    "static/js/2.bc3487aa.chunk.js",
-    "static/css/main.ae9fc907.chunk.css",
-    "static/js/main.64a62cfc.chunk.js"
+    "static/js/runtime-main.2ea1a7f7.js",
+    "static/css/2.00ab3423.chunk.css",
+    "static/js/2.8d38ca43.chunk.js",
+    "static/css/main.91fefeae.chunk.css",
+    "static/js/main.44fbdb49.chunk.js"
   ]
 }
