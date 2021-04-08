@@ -40,7 +40,7 @@ import "./Carousal.css";
               />
               <img
                 src={process.env.PUBLIC_URL + "/img/rwireframe.png "}
-                className="imgc12"
+                className="imgc12 "
                 alt="Softinfix"
               />
               <img

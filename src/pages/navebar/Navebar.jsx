@@ -16,8 +16,8 @@ const Navbar = () => {
                 <img
                   src={process.env.PUBLIC_URL + "/img/web.png "}
                   alt="img fail to load"
-                  width="170.66px"
-                  height="40px"
+                  width="255px"
+                  height="60px"
                 />
               </NavLink>
               <button
