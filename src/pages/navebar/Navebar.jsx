@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="col-10 mx-auto ">
             <nav className="navbar navbar-expand-lg navbar-light ">
               <NavLink className="navbar-brand" to="/">
-                <img
+                <img className="title-logo"
                   src={process.env.PUBLIC_URL + "/img/web.png "}
                   alt="img fail to load"
                   width="255px"
