@@ -8,9 +8,9 @@ import About from "../about/About";
 const Navbar = () => {
   return (
     <>
-     
+     <div class="container-fluid">
         <div className="row">
-          <div className="col-10 mx-auto ">
+          <div className="col-md-10 col-lg-10 col-xl-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light ">
               <NavLink className="navbar-brand" to="/">
                 <img className="title-logo"
@@ -81,6 +81,7 @@ const Navbar = () => {
             </nav>
           </div>
         </div>
+        </div>
       
       <Switch>
         <Route exact path="/" component={Home} />
@@ -89,6 +90,7 @@ const Navbar = () => {
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
+      
     </>
   );
 };

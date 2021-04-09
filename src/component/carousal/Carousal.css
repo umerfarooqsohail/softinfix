@@ -62,9 +62,11 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
-  animation: slid3 1.5s normal 0s 1 linear;
+  
   z-index: 1;
 }
+/**
+animation: slid3 1.5s normal 0s 1 linear;
 @keyframes slid3 {
   from {
     transform: translatey(1000px);
@@ -72,7 +74,7 @@
   to {
     transform: translatey(5vh);
   }
-}
+}**/
 .carousal-slider {
   height: 80vh;
   width: 100%;
