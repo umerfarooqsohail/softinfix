@@ -4,6 +4,7 @@ import Home from "../home/Home";
 import Contact from "../contact/Contact";
 import Services from "../services/Services";
 import About from "../about/About";
+import navimg from "./../../assests/img/web.png";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light ">
               <NavLink className="navbar-brand" to="/">
                 <img className="title-logo"
-                  src={process.env.PUBLIC_URL + "/img/web.png "}
+                  src={navimg}
                   alt="img fail to load"
                   width="255px"
                   height="60px"

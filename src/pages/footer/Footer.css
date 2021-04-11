@@ -1,5 +1,8 @@
 .pt-4 {
-  background-color: #06001b;
+  background-color: #121212;
+  background: linear-gradient(
+    90deg
+    ,#434343,#434343 1px,#111 0,#111);
   color: white;
 }
 a {

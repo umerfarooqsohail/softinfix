@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import outlinelogo from "../../assests/img/outline.png";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -17,7 +18,7 @@ const Footer = () => {
           <div class="row mt-3 pb-3">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <img
-                src={process.env.PUBLIC_URL + "/img/outline.png "}
+                src={outlinelogo}
                 width="100%"
                 height="100%"
                 alt="softifix"
@@ -29,16 +30,24 @@ const Footer = () => {
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  MDBootstrap
+                </a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  MDWordPress
+                </a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  BrandFlow
+                </a>
               </p>
               <p>
-                <a href="#!">Bootstrap Angular</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  Bootstrap Angular
+                </a>
               </p>
             </div>
 
@@ -47,16 +56,22 @@ const Footer = () => {
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
               <p>
-                <a href="#!">Your Account</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  Your Account
+                </a>
               </p>
               <p>
-                <a href="#!">Become an Affiliate</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  Become an Affiliate
+                </a>
               </p>
               <p>
-                <a href="#!">Shipping Rates</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                  Shipping Rates
+                </a>
               </p>
               <p>
-                <a href="#!">Help</a>
+                <a href="https://umerfarooqsohail.github.io/softinfix/">Help</a>
               </p>
             </div>
 
@@ -65,16 +80,16 @@ const Footer = () => {
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
               <p>
-                <HomeIcon /> New York, NY 10012, US
+                <HomeIcon /> lahore cantt near airport
               </p>
               <p>
-                <EmailIcon /> info@gmail.com
+                <EmailIcon /> malikumerfarooqsohail@gmail.com
               </p>
               <p>
-                <PhoneEnabledIcon /> + 01 234 567 88
+                <PhoneEnabledIcon /> + 923 241 145 775
               </p>
               <p>
-                <PrintIcon /> + 01 234 567 89
+                <PrintIcon /> + 923 241 145 775
               </p>
             </div>
           </div>
@@ -85,7 +100,7 @@ const Footer = () => {
             <div class="col-md-7 col-lg-8">
               <p class="  ">
                 © 2021 Copyright:
-                <a href="">
+                <a href="https://umerfarooqsohail.github.io/softinfix/">
                   <strong> Softinfix.com</strong>
                 </a>
               </p>
@@ -95,22 +110,34 @@ const Footer = () => {
               <div class="  text-md-right">
                 <ul class="list-unstyled list-inline">
                   <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <a
+                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                    >
                       <FacebookIcon />
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <a
+                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                    >
                       <TwitterIcon />
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <a
+                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                    >
                       <GitHubIcon />
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <a
+                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                    >
                       <LinkedInIcon />
                     </a>
                   </li>

@@ -80,7 +80,7 @@ animation: slid3 1.5s normal 0s 1 linear;
   width: 100%;
 }
 .slick-dots li.slick-active button:before {
-  color: blue;
+  color: rgba(255, 255, 255, 0.929);
 }
 
 .slick-dots li button:before {
