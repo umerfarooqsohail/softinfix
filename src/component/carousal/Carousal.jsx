@@ -15,7 +15,7 @@ const PauseOnHover = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     pauseOnHover: true,
   };
@@ -37,7 +37,7 @@ const PauseOnHover = () => {
             <img src={clsoselimg2} className="imgc13" alt="Softinfix" />
           </div>
           <div className="cimgwraper">
-            <img src=""  alt="Softinfix"/>
+            <img src="" alt="Softinfix" />
           </div>
         </Slider>
       </div>

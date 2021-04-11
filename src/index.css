@@ -4,38 +4,23 @@
   outline: none;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
-
 }
-
 /*scrollbar dark*/
-/*html::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: 20px;
-  height: 16px;
+  height: 20px;
 }
 html::-webkit-scrollbar-thumb {
   background: #434343;
-  border-radius: 16px;
-  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
+  border-radius: 50px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+    inset -2px -2px 2px rgb(0 0 0 / 25%);
 }
 
-html::-webkit-scrollbar-track {
-  background: linear-gradient(
-90deg
-,#434343,#434343 1px,#111 0,#111);
+html::-webkit-scrollbar-button {
+  background: #434343;
+  color: black;
 }
-/*scrollbar light*/
-/*body::-webkit-scrollbar {
-    width: 1em;
-}
- 
-body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}*/
 .navbar {
   background-color: #fff !important;
   letter-spacing: 1px !important;

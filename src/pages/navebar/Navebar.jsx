@@ -5,11 +5,11 @@ import Contact from "../contact/Contact";
 import Services from "../services/Services";
 import About from "../about/About";
 import navimg from "./../../assests/img/web.png";
-
+import "./Navebar.css";
 const Navbar = () => {
   return (
     <>
-     <div class="container-fluid">
+     <div className="container-fluid navbar-text">
         <div className="row">
           <div className="col-md-10 col-lg-10 col-xl-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light ">
