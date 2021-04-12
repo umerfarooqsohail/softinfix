@@ -31,7 +31,7 @@ const Introduction = () => {
         </div>
         <div className="intro-textdiv intro-textdiv2">
           <h3 className="intro-headingtext">
-            Sofinfix - Software House in Lahore
+          Trusted IT Company in Pakistan
           </h3>
           <p className="intro-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae
