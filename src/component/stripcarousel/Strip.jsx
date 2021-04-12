@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import stripc1 from "../../assests/img/stripc1.png";
 import stripc2 from "../../assests/img/stripc2.png";
 import stripc3 from "../../assests/img/stripc3.png";
@@ -27,7 +25,7 @@ export default class AutoPlay extends Component {
       speed: 1500,
       autoplaySpeed: 1500,
       cssEase: "linear",
-      button:false,
+      pauseOnHover: false,
       responsive: [
         {
           breakpoint: 1024,

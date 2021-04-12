@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import "./Project.css";
 import intro2 from "../../assests/img/intro2.jpg";
 import { Tooltip } from "@material-ui/core";
 import { Button } from "@material-ui/core";
-
+import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 
 export default class PreviousNextMethods extends Component {
   constructor(props) {
