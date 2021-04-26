@@ -22,7 +22,7 @@ const PauseOnHover = () => {
   return (
     <div className="carousal-container">
       <video
-        autoplay="true"
+        autoPlay="true"
         muted="true"
         loop="true"
         className="video-calousal"

@@ -33,25 +33,25 @@ export default class AutoPlay extends Component {
             slidesToShow: 7,
             slidesToScroll: 1,
             infinite: true,
-            dots: false
-          }
+            dots: false,
+          },
         },
         {
           breakpoint: 600,
           settings: {
             slidesToShow: 5,
             slidesToScroll: 1,
-            initialSlide: 1
-          }
+            initialSlide: 1,
+          },
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        }
-      ]
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <div className="stripc-main">

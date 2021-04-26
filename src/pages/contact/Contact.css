@@ -1,0 +1,54 @@
+.contact-main{
+  width: 100%;
+ 
+}
+.contact-heading{
+    background-color: #121212;
+    color: #fff;
+}
+.contact-2h{
+    padding-left: 100px;
+    width: 100%;
+}
+.cont-icon1 .MuiSvgIcon-root{
+  font-size: 4.5rem!important;
+  color: #05fd26;
+  padding-right: 20px;
+}
+.cont-icontext{
+color: #626262;
+}
+.cont-icontext a{
+  color: #626262;
+}
+
+.contact-div-2 {
+  float: right;
+}
+.contact-div-1 {
+  float: left;
+  text-align: right;
+  padding-right: 20px;
+  color: #444444;
+  padding-left: 50px;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.form-control {
+  background-color: #fff !important;
+  color: #626262 !important;
+  box-shadow: inset 0 0 2px 2px rgb(0 0 0 / 2%) !important;
+  padding: 10px!important;
+  outline: none!important;
+  margin: 0;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px!important;
+  border-width: 1px!important;
+  border-style: solid!important;
+  border-radius: 0!important;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border-color: rgba(0,0,0,.08)!important;
+}

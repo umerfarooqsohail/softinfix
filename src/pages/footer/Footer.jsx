@@ -13,10 +13,10 @@ import PrintIcon from "@material-ui/icons/Print";
 const Footer = () => {
   return (
     <>
-      <footer class="page-footer font-small pt-4">
-        <div class="container ">
-          <div class="row mt-3 pb-3">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <footer className="page-footer font-small pt-4">
+        <div className="container ">
+          <div className="row mt-3 pb-3">
+            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <img
                 src={outlinelogo}
                 width="100%"
@@ -25,10 +25,10 @@ const Footer = () => {
               />
             </div>
 
-            <hr class="w-100 clearfix d-md-none" />
+            <hr className="w-100 clearfix d-md-none" />
 
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
               <p>
                 <a href="https://umerfarooqsohail.github.io/softinfix/">
                   MDBootstrap
@@ -51,10 +51,12 @@ const Footer = () => {
               </p>
             </div>
 
-            <hr class="w-100 clearfix d-md-none" />
+            <hr className="w-100 clearfix d-md-none" />
 
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 className="text-uppercase mb-4 font-weight-bold">
+                Useful links
+              </h6>
               <p>
                 <a href="https://umerfarooqsohail.github.io/softinfix/">
                   Your Account
@@ -75,10 +77,10 @@ const Footer = () => {
               </p>
             </div>
 
-            <hr class="w-100 clearfix d-md-none" />
+            <hr className="w-100 clearfix d-md-none" />
 
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
               <p>
                 <HomeIcon /> lahore cantt near airport
               </p>
@@ -96,9 +98,9 @@ const Footer = () => {
 
           <hr />
 
-          <div class="row d-flex align-items-center">
-            <div class="col-md-7 col-lg-8">
-              <p class="  ">
+          <div className="row d-flex align-items-center">
+            <div className="col-md-7 col-lg-8">
+              <p className="  ">
                 © 2021 Copyright:
                 <a href="https://umerfarooqsohail.github.io/softinfix/">
                   <strong> Softinfix.com</strong>
@@ -106,37 +108,37 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="col-md-5 col-lg-4 ml-lg-0">
-              <div class="  text-md-right">
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
+            <div className="col-md-5 col-lg-4 ml-lg-0">
+              <div className="  text-md-right">
+                <ul className="list-unstyled list-inline">
+                  <li className="list-inline-item">
                     <a
                       href="https://umerfarooqsohail.github.io/softinfix/"
-                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                      className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <FacebookIcon />
                     </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://umerfarooqsohail.github.io/softinfix/"
-                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                      className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <TwitterIcon />
                     </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://umerfarooqsohail.github.io/softinfix/"
-                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                      className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <GitHubIcon />
                     </a>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <a
                       href="https://umerfarooqsohail.github.io/softinfix/"
-                      class="btn-floating btn-sm rgba-white-slight mx-1"
+                      className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <LinkedInIcon />
                     </a>
