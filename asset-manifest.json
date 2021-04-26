@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/softinfix/static/css/main.67771000.chunk.css",
+    "main.css": "/softinfix/static/css/main.f7d56f72.chunk.css",
     "main.js": "/softinfix/static/js/main.ca70763a.chunk.js",
     "main.js.map": "/softinfix/static/js/main.ca70763a.chunk.js.map",
     "runtime-main.js": "/softinfix/static/js/runtime-main.6c3a3ed4.js",
@@ -10,7 +10,7 @@
     "static/js/2.0d27cab3.chunk.js.map": "/softinfix/static/js/2.0d27cab3.chunk.js.map",
     "index.html": "/softinfix/index.html",
     "static/css/2.00ab3423.chunk.css.map": "/softinfix/static/css/2.00ab3423.chunk.css.map",
-    "static/css/main.67771000.chunk.css.map": "/softinfix/static/css/main.67771000.chunk.css.map",
+    "static/css/main.f7d56f72.chunk.css.map": "/softinfix/static/css/main.f7d56f72.chunk.css.map",
     "static/js/2.0d27cab3.chunk.js.LICENSE.txt": "/softinfix/static/js/2.0d27cab3.chunk.js.LICENSE.txt",
     "static/media/Services.css": "/softinfix/static/media/bg.884211fb.jpg",
     "static/media/ctext.a4ff2ef6.png": "/softinfix/static/media/ctext.a4ff2ef6.png",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.6c3a3ed4.js",
     "static/css/2.00ab3423.chunk.css",
     "static/js/2.0d27cab3.chunk.js",
-    "static/css/main.67771000.chunk.css",
+    "static/css/main.f7d56f72.chunk.css",
     "static/js/main.ca70763a.chunk.js"
   ]
 }
