@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/softinfix/static/css/main.2022f23c.chunk.css",
-    "main.js": "/softinfix/static/js/main.028001a6.chunk.js",
-    "main.js.map": "/softinfix/static/js/main.028001a6.chunk.js.map",
+    "main.css": "/softinfix/static/css/main.67771000.chunk.css",
+    "main.js": "/softinfix/static/js/main.ca70763a.chunk.js",
+    "main.js.map": "/softinfix/static/js/main.ca70763a.chunk.js.map",
     "runtime-main.js": "/softinfix/static/js/runtime-main.6c3a3ed4.js",
     "runtime-main.js.map": "/softinfix/static/js/runtime-main.6c3a3ed4.js.map",
     "static/css/2.00ab3423.chunk.css": "/softinfix/static/css/2.00ab3423.chunk.css",
-    "static/js/2.0508aa11.chunk.js": "/softinfix/static/js/2.0508aa11.chunk.js",
-    "static/js/2.0508aa11.chunk.js.map": "/softinfix/static/js/2.0508aa11.chunk.js.map",
+    "static/js/2.0d27cab3.chunk.js": "/softinfix/static/js/2.0d27cab3.chunk.js",
+    "static/js/2.0d27cab3.chunk.js.map": "/softinfix/static/js/2.0d27cab3.chunk.js.map",
     "index.html": "/softinfix/index.html",
     "static/css/2.00ab3423.chunk.css.map": "/softinfix/static/css/2.00ab3423.chunk.css.map",
-    "static/css/main.2022f23c.chunk.css.map": "/softinfix/static/css/main.2022f23c.chunk.css.map",
-    "static/js/2.0508aa11.chunk.js.LICENSE.txt": "/softinfix/static/js/2.0508aa11.chunk.js.LICENSE.txt",
+    "static/css/main.67771000.chunk.css.map": "/softinfix/static/css/main.67771000.chunk.css.map",
+    "static/js/2.0d27cab3.chunk.js.LICENSE.txt": "/softinfix/static/js/2.0d27cab3.chunk.js.LICENSE.txt",
     "static/media/Services.css": "/softinfix/static/media/bg.884211fb.jpg",
     "static/media/ctext.a4ff2ef6.png": "/softinfix/static/media/ctext.a4ff2ef6.png",
     "static/media/infix-video.2e6d531f.mp4": "/softinfix/static/media/infix-video.2e6d531f.mp4",
@@ -23,10 +23,10 @@
     "static/media/stripc1.3dde62bb.png": "/softinfix/static/media/stripc1.3dde62bb.png",
     "static/media/stripc10.20adfb35.png": "/softinfix/static/media/stripc10.20adfb35.png",
     "static/media/stripc11.b08bf619.png": "/softinfix/static/media/stripc11.b08bf619.png",
+    "static/media/stripc12.9d139b22.png": "/softinfix/static/media/stripc12.9d139b22.png",
     "static/media/stripc2.51ca0454.png": "/softinfix/static/media/stripc2.51ca0454.png",
-    "static/media/stripc4.e7efb0df.png": "/softinfix/static/media/stripc4.e7efb0df.png",
+    "static/media/stripc4.a723af0c.png": "/softinfix/static/media/stripc4.a723af0c.png",
     "static/media/stripc5.a92cc370.png": "/softinfix/static/media/stripc5.a92cc370.png",
-    "static/media/stripc6.2f70e12d.png": "/softinfix/static/media/stripc6.2f70e12d.png",
     "static/media/stripc7.42b6b103.png": "/softinfix/static/media/stripc7.42b6b103.png",
     "static/media/stripc9.5b7a98b2.png": "/softinfix/static/media/stripc9.5b7a98b2.png",
     "static/media/web.68e110f3.png": "/softinfix/static/media/web.68e110f3.png"
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.6c3a3ed4.js",
     "static/css/2.00ab3423.chunk.css",
-    "static/js/2.0508aa11.chunk.js",
-    "static/css/main.2022f23c.chunk.css",
-    "static/js/main.028001a6.chunk.js"
+    "static/js/2.0d27cab3.chunk.js",
+    "static/css/main.67771000.chunk.css",
+    "static/js/main.ca70763a.chunk.js"
   ]
 }
