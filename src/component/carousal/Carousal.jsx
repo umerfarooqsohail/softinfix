@@ -19,12 +19,14 @@ const PauseOnHover = () => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
   };
+console.log(true)
   return (
     <div className="carousal-container">
+    
       <video
-        autoPlay="true"
-        muted="true"
-        loop="true"
+        autoPlay={true}
+        muted={true}
+        loop={true}
         className="video-calousal"
       >
         <source src={clsoselvid1} type="video/mp4" />

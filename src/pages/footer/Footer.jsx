@@ -84,11 +84,12 @@ const Footer = () => {
               <p>
                 <HomeIcon /> lahore cantt near airport
               </p>
-              <p>
-                <EmailIcon /> malikumerfarooqsohail@gmail.com
+              <p><a href="mailto:malikumerfarooqsohail@gmail.com">
+                <EmailIcon /> malikumerfarooqsohail@gmail.com</a>
               </p>
-              <p>
+              <p><a href="tel:+923241145776">
                 <PhoneEnabledIcon /> + 923 241 145 775
+                </a>
               </p>
               <p>
                 <PrintIcon /> + 923 241 145 775

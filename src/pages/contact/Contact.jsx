@@ -66,7 +66,7 @@ const Contact = () => {
                 <form onSubmit={submitform}>
                   <div className=" col-10 ">
                     <label
-                      for="exampleFormControlInput1"
+                      htmlFor="exampleFormControlInput1"
                       className="form-label"
                     >
                       Name
@@ -85,7 +85,7 @@ const Contact = () => {
 
                   <div className="col-10 ">
                     <label
-                      for="exampleFormControlInput1"
+                      htmlFor="exampleFormControlInput1"
                       className=" form-label"
                     >
                       Mobile number
@@ -103,7 +103,7 @@ const Contact = () => {
                   </div>
                   <div className=" col-10 ">
                     <label
-                      for="exampleFormControlInput1"
+                      htmlFor="exampleFormControlInput1"
                       className="form-label"
                     >
                       Email address
@@ -122,7 +122,7 @@ const Contact = () => {
 
                   <div className="mb-3 col-10">
                     <label
-                      for="exampleFormControlTextarea1"
+                      htmlFor="exampleFormControlTextarea1"
                       className="form-label"
                     >
                       Write to us
@@ -158,7 +158,7 @@ const Contact = () => {
         width="100%"
         height="400px"
         style={{ border: "0" }}
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
       ></iframe>
       </div>
