@@ -50,47 +50,55 @@
   .intro-textdiv {
     width: 100%;
   }
-  .intro-main{
-    height:180vh ;
+  .intro-main {
+    height: 180vh;
   }
-  .intro-div{
+  .intro-div {
     height: 45vh;
   }
-  .contact-2h{
+  .contact-2h {
     padding-left: 0px;
     padding: auto;
-}
-.contact-div-1,.contact-div-2{
-  float: none ;
-  width: 100%;
-  padding-left: 0px;
-  text-align: left;
-padding-left: 20px;
-}
-
+  }
+  .contact-div-1,
+  .contact-div-2 {
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    text-align: left;
+    padding-left: 20px;
+  }
 }
 @media screen and (max-width: 480px) {
   .service-box {
     max-width: 100%;
   }
-  .intro-main{
-    height:220vh ;
+  .intro-main {
+    height: 220vh;
   }
-  .intro-div{
+  .intro-div {
     height: 55vh;
   }
-  .contact-2h{
+  .contact-2h {
     padding-left: 0px;
-    
-}.contact-2h h4{
-font-size: 18px;
+  }
+  .contact-2h h4 {
+    font-size: 18px;
+  }
+  .contact-div-1,
+  .contact-div-2 {
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .cont-icon1 .MuiSvgIcon-root {
+    margin-right: 0px;
+  }
 }
-.contact-div-1,.contact-div-2{
-  float: none ;
-  width: 100%;
-  padding-left: 0px;
-  text-align: left;
-padding-left: 20px;
-}
-
+@media screen and (max-width: 350px) {
+  .contact-2h h4,p {
+    font-size: 14px;
+  }
 }
