@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-main">
-        <div className="py-5 mb-5 contact-heading">
+        <div className="py-4 mb-5 contact-heading">
           <h1 className="text-center">Contact Us</h1>
         </div>
         <div className="contact-2h my-5 d-inline-flex">
@@ -44,24 +44,15 @@ const Contact = () => {
             <ContactSupportIcon />
           </div>
           <div className="cont-icontext">
-            <p>Have any questions?</p>
-            <h4>
-              <a href="mailto:malikumerfarooqsohail@gmail.com">
-                malikumerfarooqsohail@gmail.com
-              </a>
-            </h4>
+            <h4>Have any questions?</h4>
+            <a href="mailto:malikumerfarooqsohail@gmail.com">
+              malikumerfarooqsohail@gmail.com
+            </a>
           </div>
         </div>
         <div className="row mb-5">
           <div className="col-12">
-            <div className="contact-div-1 col-5">
-              <h2>Write a message</h2>
-              <p>
-                If you got any questions, please do not hesitate to send us a
-                message. We reply within 24 hours !
-              </p>
-            </div>
-            <div className="contact-div-2 col-7">
+            <div className="contact-div-2 col-6 mx-auto">
               <div className="row">
                 <form onSubmit={submitform}>
                   <div className=" col-10 ">
@@ -153,14 +144,14 @@ const Contact = () => {
           </div>
         </div>
         <iframe
-        title="hollo"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6714.775490092434!2d74.41037211666801!3d31.48575559279034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf88ed48410ac9fd5!2zQmhhdHRhIENob3drINio2r7ZuduBINqG2YjaqQ!5e0!3m2!1sen!2sus!4v1619378064381!5m2!1sen!2sus"
-        width="100%"
-        height="400px"
-        style={{ border: "0" }}
-        allowFullScreen=""
-        loading="lazy"
-      ></iframe>
+          title="hollo"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6714.775490092434!2d74.41037211666801!3d31.48575559279034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf88ed48410ac9fd5!2zQmhhdHRhIENob3drINio2r7ZuduBINqG2YjaqQ!5e0!3m2!1sen!2sus!4v1619378064381!5m2!1sen!2sus"
+          width="100%"
+          height="400px"
+          style={{ border: "0" }}
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
       </div>
     </>
   );

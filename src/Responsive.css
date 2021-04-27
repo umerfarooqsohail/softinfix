@@ -16,6 +16,10 @@
   .service-box {
     max-width: 45%;
   }
+  .p-imgdiv {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #header {
@@ -56,17 +60,23 @@
   .intro-div {
     height: 45vh;
   }
-  .contact-2h {
-    padding-left: 0px;
-    padding: auto;
-  }
   .contact-div-1,
   .contact-div-2 {
-    float: none;
     width: 100%;
     padding-left: 0px;
     text-align: left;
     padding-left: 20px;
+  }
+  .p-imgdiv {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .stripc-main {
+    height: 130px;
+  }
+  .strip-div {
+    height: 130px;
+    width: 130px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -79,15 +89,12 @@
   .intro-div {
     height: 55vh;
   }
-  .contact-2h {
-    padding-left: 0px;
-  }
+
   .contact-2h h4 {
     font-size: 18px;
   }
   .contact-div-1,
   .contact-div-2 {
-    float: none;
     width: 100%;
     padding-left: 0px;
     text-align: left;
@@ -96,9 +103,21 @@
   .cont-icon1 .MuiSvgIcon-root {
     margin-right: 0px;
   }
+  .p-imgdiv {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .stripc-main {
+    height: 80px;
+  }
+  .strip-div {
+    height: 80px;
+    width: 80px;
+  }
 }
 @media screen and (max-width: 350px) {
-  .contact-2h h4,p {
+  .contact-2h h4,
+  p {
     font-size: 14px;
   }
 }

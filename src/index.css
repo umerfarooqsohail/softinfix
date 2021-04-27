@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+
 /*scrollbar dark*/
 html::-webkit-scrollbar {
   width: 20px;
@@ -36,63 +37,6 @@ html::-webkit-scrollbar-button {
   color: rgba(46, 45, 45, 0.884) !important;
   font-size: 1.5rem !important;
   letter-spacing: 2px;
-}
-/* This is home page*/
-#header {
-  height: 80vh;
-  width: 100%;
-  margin-top: 70px;
-}
-#header h1 {
-  margin: 0px 0px 10px 0px;
-  font-size: 48px;
-  font-weight: 700;
-  color: black;
-}
-#header .brand-name {
-  color: #3498bd;
-}
-#header h2 {
-  color: #484848;
-  font-size: 24px;
-}
-#header .btn-get-started {
-  font-weight: 500;
-  font-size: 16px;
-  display: inline-block;
-  letter-spacing: 1px;
-  padding: 10px 30px;
-  color: #3498bd;
-  border-bottom: 2px solid #3498bd;
-  text-decoration: none;
-  border-radius: 50px;
-}
-#header .btn-get-started:hover {
-  background: #3498bd;
-  color: #fff;
-}
-.header_img {
-  text-align: right;
-}
-/* Animation*/
-#header .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
 }
 
 .btnmargin {

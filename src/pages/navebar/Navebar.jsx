@@ -17,8 +17,8 @@ const Navbar = () => {
                 <img className="title-logo"
                   src={navimg}
                   alt="img fail to load"
-                  width="255px"
-                  height="60px"
+                  width="225px"
+                  height="50px"
                 />
               </NavLink>
               <button

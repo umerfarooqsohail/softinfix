@@ -1,23 +1,25 @@
-.project-main{
-    width: 100%;
-    height:40vh;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    overflow: hidden;
+.project-main {
+  width: 100%;
+  height: 40vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: hidden;
 }
-.p-imgdiv{
-    height: 20vh;
-    width: 25vw;
-    padding-right: 20px;
-    padding: 10px;
+.p-imgdiv {
+  height: 20vh;
+  width: 25vw;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  
 }
-.p-img{
-    height: 100%;
-    width: 100%;
+.p-img {
+  height: 100%;
+  width: 100%;
 }
-.p-heading{
-    font-size: 2.5rem;
-    font-weight: bold;
+.p-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
 }

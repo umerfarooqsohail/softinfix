@@ -19,7 +19,7 @@ export default class AutoPlay extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 10,
+      slidesToShow: 7,
       slidesToScroll: 1,
       autoplay: true,
       speed: 1500,
@@ -30,7 +30,7 @@ export default class AutoPlay extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 7,
+            slidesToShow: 5,
             slidesToScroll: 1,
             infinite: true,
             dots: false,
