@@ -18,75 +18,89 @@ const Footer = () => {
         <div className="container ">
           <div className="row mt-3 pb-3">
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+              
+<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style={{display: 'inline-block'}}>
+     <a itemprop='url' href="https://www.fiverr.com/softinfix111" rel="nofollow" target="_blank" style={{display: 'inline-block'}}>
+        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-e8bb0680-d1a2-4e3d-a2e4-1e07eed6b17b' itemprop='contentURL' style={{display: 'none'}}></div>
+        <div id='fiverr-widget-seller-data' style={{display: 'none'}}>
+            <div itemprop='name' >softinfix111</div>
+            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+            <div itemprop='jobtitle'>Seller</div>
+          
+        </div>
+    </a>
+</div>
+
+
+              {/* <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   MDBootstrap
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   MDWordPress
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   BrandFlow
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   Bootstrap Angular
                 </a>
-              </p>
+              </p> */}
             </div>
 
-            <hr className="w-100 clearfix d-md-none" />
+            {/* <hr className="w-100 clearfix d-md-none" /> */}
 
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">
+              {/* <h6 className="text-uppercase mb-4 font-weight-bold">
                 Useful links
               </h6>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   Your Account
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   Become an Affiliate
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   Shipping Rates
                 </a>
               </p>
               <p>
-                <a href="https://umerfarooqsohail.github.io/softinfix/">Help</a>
-              </p>
+                <a href="https://softinfix.web.app/#/">Help</a>
+              </p> */}
             </div>
 
-            <hr className="w-100 clearfix d-md-none" />
+            {/* <hr className="w-100 clearfix d-md-none" /> */}
 
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
               <p>
-                <HomeIcon /> lahore cantt near airport
+                <HomeIcon /> Lahore
               </p>
               <p>
-                <a href="mailto:malikumerfarooqsohail@gmail.com">
-                  <EmailIcon /> malikumerfarooqsohail@gmail.com
+                <a href="mailto::Softinfix@gmail.com">
+                  <EmailIcon /> Softinfix@gmail.com
                 </a>
               </p>
               <p>
-                <a href="tel:+923241145776">
-                  <PhoneEnabledIcon /> + 923 241 145 775
+                <a href="tel:+923030000993">
+                  <PhoneEnabledIcon /> + 923 030 000 993
                 </a>
               </p>
-              <p>
-                <PrintIcon /> + 923 241 145 775
-              </p>
+              {/* <p>
+                <PrintIcon /> + 923 030 000 993
+              </p> */}
             </div>
           </div>
 
@@ -96,7 +110,7 @@ const Footer = () => {
             <div className="col-md-7 col-lg-8">
               <p className="  ">
                 © {footerdate} Copyright:
-                <a href="https://umerfarooqsohail.github.io/softinfix/">
+                <a href="https://softinfix.web.app/#/">
                   <strong> Softinfix.com</strong>
                 </a>
               </p>
@@ -107,7 +121,7 @@ const Footer = () => {
                 <ul className="list-unstyled list-inline">
                   <li className="list-inline-item">
                     <a
-                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      href="https://www.facebook.com/Softinfix" target="_blank"
                       className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <FacebookIcon />
@@ -115,23 +129,23 @@ const Footer = () => {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      href="https://softinfix.web.app/#/" target="_blank"
                       className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <TwitterIcon />
                     </a>
                   </li>
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <a
-                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      href="https://softinfix.web.app/#/"
                       className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <GitHubIcon />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="list-inline-item">
                     <a
-                      href="https://umerfarooqsohail.github.io/softinfix/"
+                      href="https://softinfix.web.app/#/" target="_blank"
                       className="btn-floating btn-sm rgba-white-slight mx-1"
                     >
                       <LinkedInIcon />

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Redirect, Route, Switch } from "react-router-dom";
+import { NavLink ,Redirect, Route, Switch } from "react-router-dom";
 import Home from "../home/Home";
 import Contact from "../contact/Contact";
 import Services from "../services/Services";
@@ -85,6 +85,7 @@ const Navbar = () => {
         </div>
       
       <Switch>
+     
         <Route exact path="/" component={Home} />
         <Route exact path="/service" component={Services} />
         <Route exact path="/about" component={About} />

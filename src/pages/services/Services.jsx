@@ -21,8 +21,7 @@ const Services = () => {
             </div>
             <div className="service-title">Web Designs</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
 
@@ -34,8 +33,7 @@ const Services = () => {
             </div>
             <div className="service-title">Web Development</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
 
@@ -47,8 +45,7 @@ const Services = () => {
             </div>
             <div className="service-title">Responsive Designs</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
 
@@ -60,8 +57,7 @@ const Services = () => {
             </div>
             <div className="service-title">Edit Sections</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
 
@@ -73,8 +69,7 @@ const Services = () => {
             </div>
             <div className="service-title">Databases</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
 
@@ -86,8 +81,7 @@ const Services = () => {
             </div>
             <div className="service-title">Android</div>
             <div className="service-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque
-              ratione rem porro, nihil.
+              
             </div>
           </div>
         </div>
