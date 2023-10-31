@@ -1,11 +1,11 @@
 import React from "react";
 import "./Services.css";
-import BrushIcon from "@material-ui/icons/Brush";
-import FormatPaintIcon from "@material-ui/icons/FormatPaint";
-import CodeIcon from "@material-ui/icons/Code";
-import EditIcon from "@material-ui/icons/Edit";
-import StorageIcon from "@material-ui/icons/Storage";
-import AndroidIcon from "@material-ui/icons/Android";
+import BrushIcon from "@mui/icons-material/Brush";
+import FormatPaintIcon from "@mui/icons-material/FormatPaint";
+import CodeIcon from "@mui/icons-material/Code";
+import EditIcon from "@mui/icons-material/Edit";
+import StorageIcon from "@mui/icons-material/Storage";
+import AndroidIcon from "@mui/icons-material/Android";
 const Services = () => {
   return (
     <div className="services-section">

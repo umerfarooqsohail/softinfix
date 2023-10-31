@@ -1,15 +1,36 @@
-import React, { useState } from "react";
-import ContactSupportIcon from "@material-ui/icons/ContactSupport";
-
+import {React,  useState  } from "react";
+import ContactSupportIcon from "@mui/icons-material/ContactSupport";
+import { useMutation } from "react-query";
+import axios from "axios";
 import "./Contact.css";
+import API_URL from "../../contexts/Config";
+// import Notification from '../notification/notification.js';
 const Contact = () => {
+  async function addUser(payload) {
+    debugger;
+    return await axios.post(
+      API_URL+"/Contact/EmailToSoftInfix",payload
+    );
+  };
+  const {mutate : contactUs_API} = useMutation(addUser, {
+    onSuccess: (resp) => {
+      debugger;
+      if(resp!=null&&resp.status===200){
+        // <Notification message="Success: Custom message here" type="success" />;
+      }
+      console.log(resp);
+    },
+  });
+ 
   const [data, setData] = useState({
     fullname: "",
     phone: "",
     email: "",
     msg: "",
   });
-
+ 
+  
+    
   const inputevent = (event) => {
     const { name, value } = event.target;
 
@@ -22,9 +43,16 @@ const Contact = () => {
   };
   const submitform = (e) => {
     e.preventDefault();
-    alert(`my name is ${data.fullname}
-      contact#${data.phone} email is ${data.email}
-      want to say ${data.msg}`);
+    // alert(`my name is ${data.fullname}
+    //   contact#${data.phone} email is ${data.email}
+    //   want to say ${data.msg}`);
+      contactUs_API({
+        Name:data.fullname,
+        number: data.phone,
+        email:data.email,
+        message: data.msg
+      });
+
     setData({
       fullname: "",
       phone: "",

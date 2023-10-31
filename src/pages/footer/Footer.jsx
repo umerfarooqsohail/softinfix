@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import HomeIcon from "@material-ui/icons/Home";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneEnabledIcon from "@material-ui/icons/PhoneEnabled";
-import PrintIcon from "@material-ui/icons/Print";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+// import GitHubIcon from "@mui/icons-material/";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import HomeIcon from "@mui/icons-material/Home";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneEnabledIcon from "@mui/icons-material/PhoneEnabled";
+// import PrintIcon from "@mui/icons-material/";
 
 const Footer = () => {
   let footerdate = new Date().getFullYear();
@@ -19,13 +19,13 @@ const Footer = () => {
           <div className="row mt-3 pb-3">
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               
-<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style={{display: 'inline-block'}}>
-     <a itemprop='url' href="https://www.fiverr.com/softinfix111" rel="nofollow" target="_blank" style={{display: 'inline-block'}}>
-        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-e8bb0680-d1a2-4e3d-a2e4-1e07eed6b17b' itemprop='contentURL' style={{display: 'none'}}></div>
+<div itemScope itemType='http://schema.org/Person' className='fiverr-seller-widget' style={{display: 'inline-block'}}>
+     <a itemProp='url' href="https://www.fiverr.com/softinfix111" rel="nofollow" target="_blank" style={{display: 'inline-block'}}>
+        <div className='fiverr-seller-content' id='fiverr-seller-widget-content-e8bb0680-d1a2-4e3d-a2e4-1e07eed6b17b' itemProp='contentURL' style={{display: 'none'}}></div>
         <div id='fiverr-widget-seller-data' style={{display: 'none'}}>
-            <div itemprop='name' >softinfix111</div>
-            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
-            <div itemprop='jobtitle'>Seller</div>
+            <div itemProp='name' >softinfix111</div>
+            <div itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Fiverr</span></div>
+            <div itemProp='jobtitle'>Seller</div>
           
         </div>
     </a>

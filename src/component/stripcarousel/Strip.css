@@ -1,11 +1,11 @@
 .stripc-main {
-  height: 150px;
+  height: 100px;
   width: 100%;
   overflow: hidden;
 }
 .strip-div {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   padding: 10px;
   padding-right: 30px;
   padding-left: 30px;

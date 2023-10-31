@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Project.css";
 import intro2 from "../../assests/img/intro2.jpg";
-import { Tooltip } from "@material-ui/core";
-import { Button } from "@material-ui/core";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
+import { Tooltip } from "@mui/material";
+import { Button } from "@mui/material";
+import NavigateNextIcon from "@mui/material/Icon";
+import NavigateBeforeIcon from "@mui/material/Icon";
 
 export default class PreviousNextMethods extends Component {
   constructor(props) {
@@ -76,12 +76,12 @@ export default class PreviousNextMethods extends Component {
           </div>
         </Slider>
         <div className="p-btn" style={{ textAlign: "center" }}>
-          <Tooltip title="prev" interactive>
+          <Tooltip title="prev" interactive="true">
             <Button className="button" onClick={this.previous}>
               <NavigateBeforeIcon />
             </Button>
           </Tooltip>
-          <Tooltip title="next" interactive>
+          <Tooltip title="next" interactive="true">
             <Button className="button" onClick={this.next}>
               <NavigateNextIcon />
             </Button>

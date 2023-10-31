@@ -22,8 +22,8 @@ const PauseOnHover = () => {
 console.log(true)
   return (
     <div className="carousal-container">
-    
-      <video
+    <div className="CVideoHeader">
+    <video
         autoPlay={true}
         muted={true}
         loop={true}
@@ -31,12 +31,15 @@ console.log(true)
       >
         <source src={clsoselvid1} type="video/mp4" />
       </video>
+    </div>
+    
       <div className="carousal-slider">
         <Slider {...settings}>
           <div className="cimgwraper">
             <img src={clsoselimg1} className="imgc11" alt="Softinfix" />
             <img src={clsoselimg3} className="imgc12 " alt="Softinfix" />
             <img src={clsoselimg2} className="imgc13" alt="Softinfix" />
+            <img src={clsoselimg2} className="imgc14" alt="Softinfix" />
           </div>
           <div className="cimgwraper">
             <img src="" alt="Softinfix" />

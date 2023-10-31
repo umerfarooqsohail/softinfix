@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink ,Redirect, Route, Switch } from "react-router-dom";
+import { NavLink, Routes, Route } from 'react-router-dom';
 import Home from "../home/Home";
 import Contact from "../contact/Contact";
 import Services from "../services/Services";
@@ -39,8 +39,8 @@ const Navbar = () => {
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <NavLink
-                      activeClassName="nav_btn"
-                      exact
+                      activeclassname="nav_btn"
+                      
                       className="nav-link "
                       to="/"
                     >
@@ -49,8 +49,8 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      activeClassName="nav_btn"
-                      exact
+                      activeclassname="nav_btn"
+                      
                       className="nav-link"
                       to="/service"
                     >
@@ -59,8 +59,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      activeClassName="nav_btn"
-                      exact
+                      activeclassname="nav_btn"
                       className="nav-link"
                       to="/about"
                     >
@@ -69,8 +68,8 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      activeClassName="nav_btn"
-                      exact
+                      activeclassname="nav_btn"
+                      
                       className="nav-link"
                       to="/contact"
                     >
@@ -84,15 +83,14 @@ const Navbar = () => {
         </div>
         </div>
       
-      <Switch>
+      <Routes>
      
-        <Route exact path="/" component={Home} />
-        <Route exact path="/service" component={Services} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Redirect to="/" />
-      </Switch>
-      
+        <Route path='/' element={<Home />} />
+        <Route path="/service" element={<Services />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    
     </>
   );
 };
